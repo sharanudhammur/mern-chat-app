@@ -1,0 +1,21 @@
+.logout-button {
+    margin-top: auto;
+
+    .logout-icon {
+        width: 1.5rem;
+        height: 1.5rem;
+        color: #ffffff;
+        cursor: pointer;
+
+        &:hover {
+            color: red;
+        }
+    }
+
+    .loading-spinner {
+        display: block;
+        margin: 0 auto;
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+}
